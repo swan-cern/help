@@ -2,15 +2,14 @@
 
 ### CERNBox
 
-[CERNBox](https://cernbox.cern.ch) is the CERN service to store, share and synchronise data across multiple devices (smartphones, tablets, laptops,
-desktops) and multiple users. Everyone with a standard CERN computing account has access to it.
+[CERNBox](https://cernbox.cern.ch) is the CERN service to store, share and synchronise data across multiple devices (smartphones, tablets, laptops, desktops) and multiple users.
 
-In SWAN we use it to provide the user storage space and sharing functionalities. To start a session, you need 
-to active your CERNBox account first. To do it, [access this page](https://cernbox.cern.ch).
+In SWAN, CERNBox is your home directory. It is the space where you can store your files, including notebooks, and share them with other colleagues. Prior to using SWAN, you need to create your CERNBox by logging in to [this page](https://cernbox.cern.ch) with your CERN credentials at least once.
 
-You will then be able to see all your files inside the SWAN interface. All your projects and notebooks will be saved here.
+All your CERNBox files are accessible from SWAN. Moreover, if you install the CERNBox client on your machine, the files that you create in your local CERNBox will be automatically synchronized and visible in SWAN, and viceversa.
 
 ### EOS
 
-[EOS](http://eos.web.cern.ch/) is CERN mass storage system, used by CERNBox. It is also the place were many of the LHC experiments are stored.
-SWAN gives access to EOS, and all of its data, without the need of extra configuration.
+[EOS](http://eos.web.cern.ch/) is CERN's mass storage system, on top of which CERNBox is implemented. It is the place were  the data of the LHC experiments are stored to be analyzed later.
+
+SWAN gives access to several EOS repositories under the `/eos/` path, namely `experiment`, `fcc`, `hepdata`, `opendata`, `project` and `user`.
