@@ -10,7 +10,6 @@
     * [Set a configuration as default](session/set_default.md)
     * [Switch to a new configuration](session/switch.md)
     * [Terminate a session](session/terminate.md)
-    * [Resume a session](session/resume.md)
 * Working with SWAN
     * [Create a Project](swan/create_proj.md)
     * [Create a Notebook](swan/create_notebook.md)
