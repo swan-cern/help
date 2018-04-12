@@ -1,5 +1,3 @@
 # Terminate a session
 
-As mentioned in _Switch to a new configuration_, to stop your session you need to click "Change configuration" on the 
-top right menu. But keep in mind that, your saved session configurations will be lost and you will need to go through
-the Configuration menu.
+You can terminate your session by going to the top right menu, clicking on the **`...`** button and selecting **`Change configuration`**. This will take you back to the configuration form and invalidate any default configuration you might have previously selected.
