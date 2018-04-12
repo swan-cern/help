@@ -1,8 +1,3 @@
 # Set a configuration as default
 
-If you do not want to select a configuration every time you want to start a session, you can tick the 
-"Always start with this configuration" check box. By doing this, SWAN will save the configuration chosen, and use this
-whenever necessary.
-
-If you have problems when starting your session due to this option, please remove from your CERNBox the hidden file named
-".swanrc", that is located inside the folder _SWAN_projects_.
+If there is a configuration that you normally use, you do not have to select it every time you start a session. Instead, you can tick the **`Always start with this configuration`** check box that is located at the bottom of the configuration form. This way, the next time you start a session SWAN will automatically load your preferred configuration.
