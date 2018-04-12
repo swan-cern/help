@@ -8,7 +8,7 @@ On the other hand, you can install packages on your CERNBox and, if necessary, c
 up in SWAN. A typical case is the installation of Python packages, which requires to run pip from a SWAN terminal:
 `pip install --user package_name`
 
-Then, it would be necessary to add the local installation path to PYTHONPATH, by creating a bash startup script that configures the `PYTHONPATH` variable:
+Then, it would be necessary to add the local installation path to `PYTHONPATH`, by creating a bash startup script that configures that variable:
 
     export PYTHONPATH=$CERNBOX_HOME/.local/lib/python3.5/site-packages:$PYTHONPATH
 
