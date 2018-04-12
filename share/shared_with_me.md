@@ -1,14 +1,12 @@
-# Check what others share with you/Clone
+# Check what others share with you
 
-When opening the Share view (clicking on the "Share" tab), you will see a list with the projects you have shared and 
-those that others shared with you.
+The **Share** view (accessible by clicking on the **`Share`** tab) also allows you to manage the projects that others have shared with you.
 
-Currently it's not possible to open projects shared with you to check its contents (this functionality will be added in the next update): you will need to copy them to your CERNBox.
-To do this, hover the list with the mouse to see the "Clone" buttons and click the button of the Project you want to copy.
-After choosing the name you want the Project to be called, if everything was ok, you will be redirected automatically inside it.
+By hovering over those projects, you will see a **`Clone`** button appearing. If you click it, you will be asked for the name you want to give to the project and, by hitting **`Clone`** again to confirm, the contents of the project will be copied into your CERNBox. Soon after that the project will be opened for you and you will be able to browse its contents.
 
-Only sharing by copy is supported because Jupyter does not support yet the concurrent editing of 
-the same notebook file by multiple people.
+Please note that the contents of your new project are a copy of the original ones. This is due to the fact that Jupyter does not currently support concurrent editing of the same notebook file by multiple users.
+
+The SWAN team is currently implementing a mechanism for users to inspect the content of a shared project before cloning it, so they have more information to decide if they want to perform the copy or not.
 
 ![][sharing_with_me]
 
