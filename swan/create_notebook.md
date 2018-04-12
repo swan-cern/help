@@ -6,6 +6,8 @@ SWAN allows you to create notebooks in four different languages: Python (2 or 3,
 
 In order to create a notebook, click on the **`+`** button from inside a project or a regular folder. A list will then appear with the available languages. Once you select one, the notebook interface will open in a new tab.
 
+Any notebook you create in a session will have access to all the packages of the LCG release you selected for that session. Moreover, notebooks also see the additional configuration defined in a user environment script, if any.
+
 If you want to see your running notebooks, click the **`Running Processes`** button inside the options menu (**`∙∙∙`**) on the top right.
 
 ![][running_processes]
