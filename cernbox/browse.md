@@ -1,8 +1,7 @@
 # Browse files
 
-There are three ways in which you can browse your files:
+The whole content of your CERNBox space is fully accessible from SWAN. If you click on the **`CERNBox`** tab, you will be able to browse your files.
 
-* You can use the SWAN's Jupyter web interface. Some file types will be browsable besides notebooks, mainly textual formats.
-* You can use the [CERNBox web interface](http://cernbox.cern.ch/). You will be able to visualise several file types 
-among which notebooks and ROOT files.
-* You can use your own machine simply synchronising [CERNBox on your local disk](http://cernbox.web.cern.ch/cernbox/en/synchronisation/).
+If you click on notebooks, the notebook interface will open to edit them. Similarly, an editor appears when clicking on files with textual formats.
+
+By browsing through your CERNBox, you can create notebooks inside regular folders that do not belong any project, if you wish so. The only drawback is that you will not be able to share those notebooks from SWAN, since projects are the unit of sharing.
