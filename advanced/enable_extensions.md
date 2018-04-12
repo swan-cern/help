@@ -4,7 +4,7 @@ SWAN provides a set of common notebook extensions, whose description can be foun
 
 ![][nbextensions]
 
-In addition, ipywidgets can also be used: [https://github.com/ipython/ipywidgets](https://github.com/ipython/ipywidgets).
+In addition, [ipywidgets](https://github.com/ipython/ipywidgets) can also be used.
 
 Most notebook extensions enrich the notebook interface with new JavaScript features and, therefore, they need to be 
 activated before opening a notebook. In order to activate an extension, you can go to the Nbextensions configuration panel, 
