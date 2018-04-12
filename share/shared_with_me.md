@@ -10,4 +10,4 @@ The SWAN team is currently implementing a mechanism for users to inspect the con
 
 ![][sharing_with_me]
 
-[sharing_with_me]: ../images/sharing_with_me.png "Sharig menu"
+[sharing_with_me]: ../images/sharing_with_me.png "Sharing menu"
