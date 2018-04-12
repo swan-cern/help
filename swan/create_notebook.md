@@ -1,18 +1,12 @@
 # Create a Notebook
 
-Notebooks are documents that contain live code, equations, visualizations and narrative text. You can even run the code 
-to produce rich interactive content, like plots and graphics.
+After creating or browsing into a project, you can add content to it. One of the most important types of content you can add to a project is a _notebook_. Notebooks are documents that contain live code, equations, visualizations and narrative text. You can even run the code to produce rich interactive content, like plots and graphics.
 
-SWAN supports code written in Python (2 or 3, depending on the software stack chosen), ROOT C++, R and Octave. To know 
-more, please [read about Jupyter](https://jupyter.org/), the interface used by SWAN to provide this functionalities.
+SWAN allows you to create notebooks in four different languages: Python (2 or 3, depending on the software stack chosen during the session configuration), C++, R and Octave. To know more, please [read about Jupyter](https://jupyter.org/), the notebook interface used by SWAN.
 
-To create a notebook, click the "+" button in the file view, when inside a Project or folder. You will then be able to
-choose the language you want.
+In order to create a notebook, click on the *`+`* button from inside a project or a regular folder. A list will then appear with the available languages. Once you select one, the notebook interface will open in a new tab.
 
-If you are inside the Projects view, create a Project first.
-
-If you want to see your running notebooks or terminals, click the "Running Processes" button, inside the options menu ("∙∙∙"), 
-on the top right.
+If you want to see your running notebooks, click the **`Running Processes`** button inside the options menu (**`∙∙∙`**) on the top right.
 
 ![][running_processes]
 
