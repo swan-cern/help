@@ -1,8 +1,8 @@
 # Share a Project 
 
-In this new SWAN, there is a central concept that drives the users work: the Project.
+As introduced earlier in this help panel, SWAN has a central concept that drives the users work: the _project_.
 This is a special kind of folder where you can put your notebooks, data files, images or whatever you want.
-Projects are the unit of sharing in SWAN: when you share a Project you share also every file inside it.
+Projects are the unit of sharing in SWAN: when you share a project you share also every file inside it.
 
 In order to share a project with some colleague you have a few options:
 
@@ -11,7 +11,7 @@ In order to share a project with some colleague you have a few options:
 * When you are editing a notebook, there is a share button in the header (top right of the page).
 
 When following one of the options above, the Sharing Panel appears. Search for the names of the people you want 
-to share with and click enter to add them to the list. Then click "Share" to start sharing.
+to share with and click enter to add them to the list. Then click **`Share`** to start sharing.
 
 ![][sharing_proj]
 
