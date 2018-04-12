@@ -7,7 +7,7 @@ potentially useful for a significant number of users, please [let the SWAN team 
 On the other hand, you can install packages on your CERNBox and, if necessary, configure your environment to pick them 
 up in SWAN. A typical case is the installation of Python packages, which requires to run pip from a SWAN terminal:
 
-`pip install --user package_name`
+   `pip install --user package_name`
 
 Then, it would be necessary to add the local installation path to `PYTHONPATH`, by creating a bash startup script that configures that variable:
 
