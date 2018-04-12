@@ -16,6 +16,6 @@ The environment script is a **bash shell script** that you can write to define y
 other configuration actions. You can locate this script in your CERNBox and access it by using the
  `CERNBOX_HOME` environment variable, that automatically resolves to your home directory in SWAN, i.e. your CERNBox.
 
-After selecting the values that you want, click on "Start my Session" to begin working with SWAN!
+After selecting the values that you want, click on **`Start my Session`** to begin working with SWAN!
 
 [config_panel]: ../images/config_panel.png "Configuration panel"
