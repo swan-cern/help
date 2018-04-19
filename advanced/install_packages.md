@@ -11,7 +11,7 @@ up in SWAN. A typical case is the installation of Python packages, which require
 
 If this fails because you are trying to install an updated version of a package that already exists in CVMFS, you will need to add the `--upgrade` flag.
 
-Then, it would be necessary to add the local installation path to `PYTHONPATH`, by creating a bash startup script that configures that variable:
+Then, it would be necessary to add the local installation path to `PYTHONPATH`, by creating a bash startup script that configures that variable (don't forget to call this startup script in the session configuration menu):
 
     export PYTHONPATH=$CERNBOX_HOME/.local/lib/python3.5/site-packages:$PYTHONPATH
 
