@@ -8,6 +8,6 @@ Once the project is successfully created, you will be automatically redirected i
 
 ## Create a Project from git
 
-SWAN also allows you to create a _Project_ from a git repository. If the repository happens to have a "Open in SWAN" button, you just need to click it and all the contents will be copied to your Projects view.
-
-You can also click the "Download Project from git" button, and enter the path to the repository (use the same link used to clone, with the .git extension). For security reasons, only projects stored in Github and CERN Gitlab are allowed.
+SWAN also allows you to create a Project from a git repository. In the Projects view, you can click the **`Download Project from git`** button and enter the path to the repository. Please note that you need to append _.git_ to the URL of the repository. For security reasons, only repositories in Github and CERN Gitlab are allowed.
+ 
+Alternatively, if the git repository has an **`Open in SWAN`** button, you just need to click it and its contents will be copied into a new Project.
