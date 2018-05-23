@@ -6,7 +6,7 @@ From the Projects tab, you can create a folder by clicking on the **`+`** button
 
 Once the project is successfully created, you will be automatically redirected inside it so that you can start adding content to it.
 
-## Create a Project from git
+### Create a Project from git
 
 SWAN also allows you to create a Project from a git repository. In the Projects view, you can click the **`Download Project from git`** button and enter the path to the repository. Please note that you need to append _.git_ to the URL of the repository. For security reasons, only repositories in Github and CERN Gitlab are allowed.
  
