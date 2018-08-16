@@ -1,6 +1,6 @@
 # Select a configuration
 
-Once you connect to https://swan.cern.ch and authenticate with your CERN username and password, you are prompted with a configuration form to customize your SWAN session.
+Once you connect to https://swan.up2u.cern.ch and authenticate with your username and password, you are prompted with a configuration form to customize your SWAN session.
 
 ![][config_panel]
 
