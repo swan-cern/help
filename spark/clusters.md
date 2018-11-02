@@ -16,11 +16,7 @@ You will notice that, if you selected a cluster before starting your session, a 
 
 ![][spark_toolbar]
 
-Once the kernel is ready, you will be able to click on it. When you do, a panel will appear on the right. For now, you will need to type your password, so that we get a kerberos ticket to access the cluster (you only need to do this once per session). The SWAN team is working to eliminate the need for this extra password typing.
-
-![][spark_auth]
-
-After entering your password, you will see the configuration menu. Here you can add extra Spark configuration options, such as number of cores or memory to use in the Spark executors.
+Once the kernel is ready, you will be able to click on it. When you do, a panel will appear on the right, showing the Spark configuration menu. Here you can add extra Spark configuration options, such as number of cores or memory to use in the Spark executors.
 
 ![][spark_options]
 
