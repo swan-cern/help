@@ -37,6 +37,10 @@ You are now ready to start submitting your Spark jobs!
 
 SWAN also provides automatic saving of Spark configuration options: any option added in the configuration menu will be saved in the notebook metadata. This means that every time you open that notebook and use the Spark connector, the configurations will load automatically, so that you do not have to type them again! If you modify them, the changes will be saved.
 
+Please note that **multiple Spark connections from a user session are not supported**. If you open a notebook and connect to a Spark cluster as described above, you cannot open another notebook and connect again. You can only open a new connection with the cluster if you do one of the following actions first:
+* Terminate the process of the notebook that is already connected (e.g. with menu `File - Close and Halt`, or shutting down your notebook from the file browser).
+* Restart your user session (via `Change configuration` in the `...` button of the upper bar).
+
 ### Manual configurations
 
 If you like to write your own code to configure Spark, you can do it as before. We already provide a SparkConf object (see below in Spark Monitoring), so you can use it to add your configurations.
