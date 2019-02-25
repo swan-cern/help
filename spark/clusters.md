@@ -10,7 +10,7 @@ In order to access a particular Spark cluster from SWAN, the first thing you nee
 
 ### Spark Connector
 
-Once your session is started, you will be able to access the Spark cluster you selected from a Python notebook. Please note that you can only connect to the cluster from one notebook at a time. You can shut down a notebook and then connect from another one. You can also restart the kernel of your current notebook if you want to kill the current connection and re-connect from the same notebook.
+Once your session is started, you will be able to access the Spark cluster you selected from a Python notebook. You are allowed to connect from 2 different notebooks. If you need to connect from a different notebook, please shutdown one of the opened ones. You can also restart the kernel of your current notebook if you want to kill the current connection and re-connect from the same notebook.
 
 You will notice that, if you selected a cluster before starting your session, a new Spark button will appear in the toolbar:
 
@@ -33,20 +33,21 @@ You are now ready to start submitting your Spark jobs!
 
 SWAN also provides automatic saving of Spark configuration options: any option added in the configuration menu will be saved in the notebook metadata. This means that every time you open that notebook and use the Spark connector, the configurations will load automatically, so that you do not have to type them again! If you modify them, the changes will be saved.
 
-Please note that **multiple Spark connections from a user session are not supported**. If you open a notebook and connect to a Spark cluster as described above, you cannot open another notebook and connect again. You can only open a new connection with the cluster if you do one of the following actions first:
-* Terminate the process of the notebook that is already connected (e.g. with menu `File - Close and Halt`, or shutting down your notebook from the file browser).
+Please note that **only 2 Spark connections from a user session are supported**. If you open 2 notebooks and connect to a Spark cluster as described above, you cannot open a third notebook and connect again. You can only open a new connection with the cluster if you do one of the following actions first:
+* Terminate the process of one of the notebooks that are already connected (e.g. with menu `File - Close and Halt`, or shutting down your notebook from the file browser).
 * Restart your user session (via `Change configuration` in the `...` button of the upper bar).
 
 ### Manual configurations
 
 If you like to write your own code to configure Spark, you can do it as before. We already provide a SparkConf object (see below in Spark Monitoring), so you can use it to add your configurations.
+You will need to specify 3 ports in the configuration. To know what ports were allocated to your session, please check the comma separated list defined in the environment variable `$SPARK_PORTS`.
 These are the configurations needed to access the cluster:
 
 	
 	conf.set('spark.driver.host', os.environ.get('SERVER_HOSTNAME'))
-    conf.set('spark.driver.port', os.environ.get('SPARK_PORT_1'))
-    conf.set('spark.blockManager.port', os.environ.get('SPARK_PORT_2'))
-    conf.set('spark.ui.port', os.environ.get('SPARK_PORT_3'))
+    conf.set('spark.driver.port', PORT_1)
+    conf.set('spark.blockManager.port', PORT_2)
+    conf.set('spark.ui.port', PORT_3)
     conf.set('spark.master', 'yarn')
     conf.set('spark.authenticate', True)
     conf.set('spark.network.crypto.enabled', True)
