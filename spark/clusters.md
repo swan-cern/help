@@ -1,10 +1,15 @@
 # Running Spark on CERN Clusters
 
-SWAN also allows to submit computations to Spark Clusters located at CERN. If you are interested in accessing these clusters, please let us know at [swan-admins@cern.ch](mailto:swan-admins@cern.ch), as you need to be added to a specific e-group.
+SWAN also allows to submit computations to Spark Clusters located at CERN. If you are interested in accessing these clusters, please let us know at [ai-hadoop-admins@cern.ch](mailto:ai-hadoop-admins@cern.ch), as you need to be added to a specific e-group.
 
 ### Selection of a Spark Cluster
 
-In order to access a particular Spark cluster from SWAN, the first thing you need to do is select that cluster from the "Spark cluster" option of the form, when starting your SWAN session:
+In order to access a particular Spark cluster from SWAN, the first thing you need to do is select that cluster from the "Spark cluster" option of the form, when starting your SWAN session.
+
+Recommended usage of Spark Clusters:
+* analytix - General Purpose Cluster
+* nxcals - Dedicated for BEAMS NXCals Project
+* cloud containers - analysis accessing data from external storage systems (e.g EOS, Kafka etc)
 
 ![][spark_clusters]
 
@@ -55,7 +60,7 @@ These are the configurations needed to access the cluster:
     conf.set('spark.executorEnv.LD_LIBRARY_PATH', os.environ.get('LD_LIBRARY_PATH'))
 
 
-If you want to access the Analytics cluster, add the following config:
+If you want to access the analytix cluster, add the following config:
 
 	extra_class = swan_spark_conf.get('spark.driver.extraClassPath') + ':/eos/project/s/swan/public/hadoop-mapreduce-client-core-2.6.0-cdh5.7.6.jar'
 	swan_spark_conf.set('spark.driver.extraClassPath', extra_class)
