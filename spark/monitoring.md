@@ -6,4 +6,10 @@ If you are running Spark jobs on a CERN cluster, you can now keep track of their
 
 With this tool you can see in detail the jobs, including stages, and the tasks that are running. You can also inspect the resource utilization and access the Spark UI.
 
+
+![][spark_conn_details]
+
+After estabilishing successful connection, you will be shown some connection details which allow you to check your workload tasks/stages details and performance metrics. 
+
+[spark_conn_details]: ../images/spark_conn_details.png "Spark Connection Details"
 [spark_monitor]: ../images/spark_monitor.png "Spark Monitor"
