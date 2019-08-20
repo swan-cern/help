@@ -17,7 +17,9 @@ If this fails because you are trying to install an updated version of a package 
 
 Then, it would be necessary to add the local installation path to `PYTHONPATH`, by creating a bash startup script that configures that variable (don't forget to call this startup script in the session configuration menu):
 
-    export PYTHONPATH=$CERNBOX_HOME/.local/lib/python3.5/site-packages:$PYTHONPATH
+``` python
+export PYTHONPATH=$CERNBOX_HOME/.local/lib/python3.5/site-packages:$PYTHONPATH
+```
 
 As a result of performing the aforementioned steps, the package will be installed on your CERNBox and it will be picked by 
 any notebook you open after that. Since the package is on your CERNBox, it will be also available in any new session 
