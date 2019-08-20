@@ -7,6 +7,7 @@ If you are in the Projects view, when you hover a shared Project, instead of the
 ![][edit_share]
 
 The Sharing Panel and its options to edit the sharing of a project can also be accessed in two more ways:
+
 * When browsing the files of a project, there is a share button on the top right.
 * When editing a notebook, there is a share button in the header (top right of the page).
 

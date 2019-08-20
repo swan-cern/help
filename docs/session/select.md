@@ -5,6 +5,7 @@ Once you connect to https://swan.cern.ch and authenticate with your CERN usernam
 ![][config_panel]
 
 In the configuration form you have the following options:
+
 * **Software stack**: [LCG release](http://lcginfo.cern.ch/) that will be used to configure your environment. From your session, you will have available all the software packages included in the LCG release that you selected.
 * **Platform**: GCC compiler version.
 * **Environment script**: path to a script with extra environment configuration (see more below).
