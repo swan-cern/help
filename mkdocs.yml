@@ -1,0 +1,56 @@
+
+# Project information
+site_name: 'Help'
+site_description: 'User documentation of SWAN'
+site_url: 'https://swan.docs.cern.ch/'
+site_dir: 'public'
+
+# Repository
+repo_url: 'https://github.com/swan-cern/help'
+
+# Theme configuration
+theme:
+  name: 'swan'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+# Navigation menu
+nav:
+  - Introduction:
+    - intro/what_is.md
+    - intro/jupyter.md
+    - intro/cernbox.md
+    - intro/cvmfs.md
+  - Create and manage a SWAN session:
+    - session/select.md
+    - session/set_default.md
+    - session/switch.md
+    - session/terminate.md
+  - Working with SWAN:
+    - swan/create_proj.md
+    - swan/create_notebook.md
+    - swan/create_folder.md
+    - swan/open_terminal.md
+  - Share your work:
+    - share/how_to.md
+    - share/modify.md
+    - share/being_shared.md
+    - share/shared_with_me.md
+  - CERNBox:
+      - cernbox/browse.md
+      - cernbox/sync_files.md
+  - Spark Integration:
+      - spark/local.md
+      - spark/clusters.md
+      - spark/monitoring.md
+  - Advanced setup:
+      - advanced/install_packages.md
+      - advanced/enable_extensions.md
+  - issues.md
+  - logos.md
