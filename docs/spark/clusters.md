@@ -7,6 +7,7 @@ SWAN also allows to submit computations to Spark Clusters located at CERN. If yo
 In order to access a particular Spark cluster from SWAN, the first thing you need to do is select that cluster from the "Spark cluster" option of the form, when starting your SWAN session.
 
 Recommended usage of Spark Clusters:
+
 * analytix - General Purpose Cluster
 * nxcals - Dedicated for BEAMS NXCals Project
 * cloud containers - analysis accessing data from external storage systems e.g EOS, S3, Kafka, HDFS (analytix)
