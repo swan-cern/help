@@ -18,3 +18,15 @@ Then, it would be necessary to add the local installation path to `PYTHONPATH`, 
 As a result of performing the aforementioned steps, the package will be installed on your CERNBox and it will be picked by 
 any notebook you open after that. Since the package is on your CERNBox, it will be also available in any new session 
 you start in SWAN.
+
+## Install packages for R
+
+You can install packages for R in a local directory, for that, from a SWAN terminal, create a directory in your home directory using the next command
+`mkdir -p ~/Rpackages`
+
+open the R interpreter and run the next command to install your package modifiying "package_here" with the name of your package
+`install.packages('package_here', repos='http://cran.rstudio.com/',lib = '~/Rpackages')`
+
+In your notebook you can to use the package adding the next two commands in a cell
+`.libPaths(c(.libPaths(), "~/Rpackages"))`
+`require(installed_pkg,lib='~/Rpackages',character.only = TRUE)`
