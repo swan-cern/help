@@ -5,7 +5,11 @@ potentially useful for a significant number of users, please [let the SWAN team 
 [contact the librarians directly](https://sft.its.cern.ch/jira/projects/SPI).
 
 On the other hand, you can install packages on your CERNBox and, if necessary, configure your environment to pick them 
-up in SWAN. A typical case is the installation of Python packages, which requires to run pip from a SWAN terminal:
+up in SWAN. 
+
+## Python
+
+A typical case is the installation of Python packages, which requires to run pip from a SWAN terminal:
 
    `pip install --user package_name`
 
@@ -19,14 +23,14 @@ As a result of performing the aforementioned steps, the package will be installe
 any notebook you open after that. Since the package is on your CERNBox, it will be also available in any new session 
 you start in SWAN.
 
-## Install packages for R
+## R
 
-You can install packages for R in a local directory, for that, from a SWAN terminal, create a directory in your home directory using the next command
+You can also install R packages on your CERNBox. For that, from a SWAN terminal, create a subdirectory on your CERNBox home directory using the next command:
 `mkdir -p ~/Rpackages`
 
-open the R interpreter and run the next command to install your package modifiying "package_here" with the name of your package
+Next, still from the SWAN terminal, open the R interpreter and run the next command to install your package (replace "package_here" by the name of your package):
 `install.packages('package_here', repos='http://cran.rstudio.com/',lib = '~/Rpackages')`
 
-In your notebook you can to use the package adding the next two commands in a cell
+Finally, from your R notebook, you will be able to use your package after running the following two commands in a cell:
 `.libPaths(c(.libPaths(), "~/Rpackages"))`
 `require(installed_pkg,lib='~/Rpackages',character.only = TRUE)`
