@@ -28,3 +28,17 @@ activation commands in your user enviroment script.
 [nbextensions]: ../images/nbextensions.png "Nbextensions configuration panel"
 [terminal_ext]: ../images/terminal_ext.png "Extension activation on terminal"
 [spellchecker_nb]: ../images/spellchecker_nb.png "Extension activation inside a notebook"
+
+
+# Enable Jupyter extension not provided by SWAN.
+
+Install Jupyter extension requires to run the next commands from a SWAN terminal:
+
+`pip install --user extension_name`
+`export JUPYTER_DATA_DIR=$CERNBOX_HOME.local/share/jupyter`
+`jupyter nbextension install --py --symlink --user extension_name`
+`jupyter nbextension enable extension_name --user --py`
+
+It is important to point out that the `export` and `--user` in the nbextension commands are important so that the extension is saved in CERNBox.
+
+  
