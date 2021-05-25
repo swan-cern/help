@@ -32,8 +32,8 @@ You can inline-edit an option already added, by clicking in the option name or v
 
 After clicking on "Connect", the connection will be established. This may take some time, but you can follow the logs to see what is happening. Once the connection process has finished, there will be two new variables available in your notebook for you to use:
 
-*   **sc** = [SparkContext](https://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.SparkContext)
-*   **spark** = [SparkSession](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html#pyspark.sql.SparkSession)
+*   **sc** = [SparkContext](https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.SparkContext.html)
+*   **spark** = [SparkSession](https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.sql.SparkSession.html)
 
 You are now ready to start submitting your Spark jobs!
 
@@ -49,7 +49,7 @@ This allows you to browse the HDFS directory structure
 
 ### Example Spark Notebooks Gallery
 
-Check out [Getting Started Spark Notebooks](https://swan.web.cern.ch/content/apache-spark) 
+Check out [Getting Started Spark Notebooks](https://swan-gallery.web.cern.ch/apache_spark/) 
 
 [spark_clusters]: ../images/spark_clusters.png "Choose Spark Cluster"
 [spark_toolbar]: ../images/spark_toolbar.png "Spark Connector button"
