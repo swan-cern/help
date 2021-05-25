@@ -1,6 +1,6 @@
 # Running Spark on CERN Clusters
 
-SWAN also allows to submit computations to Spark Clusters located at CERN. If you are interested in accessing these clusters, please let us know at [ai-hadoop-admins@cern.ch](mailto:ai-hadoop-admins@cern.ch), as you need to be added to a specific e-group.
+SWAN also allows to submit computations to Spark Clusters located at CERN. If you are interested in accessing these clusters, please follow the procedure indicated in the [Hadoop User Guide](https://hadoop-user-guide.web.cern.ch/getstart/access.html), as you need to be added to a specific e-group.
 
 ### Selection of a Spark Cluster
 
