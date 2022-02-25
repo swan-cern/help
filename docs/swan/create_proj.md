@@ -14,4 +14,4 @@ Alternatively, if the git repository has an **`Open in SWAN`** button, you just 
 
 #### Protected repositories
 
-The repositories with visibility set to 'Private' or 'Internal' in Gitlab cannot be cloned by simply pasting the repository path, but you need to create a Project access token [](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) and then modify the repo URL to `https://<username>:<token>@<normal_repo_URL>.git`
+The repositories with visibility set to 'Private' or 'Internal' in Gitlab cannot be cloned by simply pasting the repository path. To clone these repositories create a [Project access token ](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) and then modify the repository URL to `https://<username>:<token>@<normal_repo_URL>.git`
