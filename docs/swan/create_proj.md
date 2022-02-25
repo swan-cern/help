@@ -11,3 +11,7 @@ Once the project is successfully created, you will be automatically redirected i
 SWAN also allows you to create a Project from a git repository. In the Projects view, you can click the **`Download Project from git`** button and enter the path to the repository. Please note that you need to append _.git_ to the URL of the repository. For security reasons, only repositories in Github and CERN Gitlab are allowed.
  
 Alternatively, if the git repository has an **`Open in SWAN`** button, you just need to click it and its contents will be copied into a new Project.
+
+#### Protected repositories
+
+The repositories with visibility set to 'Private' or 'Internal' in Gitlab cannot be cloned by simply pasting the repository path, but you need to create a Project access token [](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) and then modify the repo URL to `https://<username>:<token>@<normal_repo_URL>.git`
