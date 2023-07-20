@@ -11,12 +11,20 @@ repo_url: 'https://github.com/swan-cern/help'
 # Theme configuration
 theme:
   name: 'swan'
+  features:
+    - navigation.footer
+    - content.action.edit
+    - content.code.copy
+
+plugins:
+  - material/search:
 
 # Extensions
 markdown_extensions:
   - admonition
-  - codehilite:
+  - pymdownx.highlight:
       guess_lang: false
+  - pymdownx.superfences
   - toc:
       permalink: true
 
