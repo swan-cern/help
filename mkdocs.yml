@@ -60,5 +60,6 @@ nav:
   - Advanced setup:
       - advanced/install_packages.md
       - advanced/enable_extensions.md
+  - alma9.md
   - issues.md
   - logos.md
