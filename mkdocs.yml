@@ -57,6 +57,15 @@ nav:
       - spark/local.md
       - spark/clusters.md
       - spark/monitoring.md
+  - HTCondor Integration:
+      - condor/intro.md
+      - condor/configure_session.md
+      - condor/create_cluster.md
+      - condor/create_client.md
+      - condor/execute_and_monitor.md
+      - condor/inspect_results.md
+      - condor/resume_work.md
+      - condor/move_to_batch.md
   - Advanced setup:
       - advanced/install_packages.md
       - advanced/enable_extensions.md
