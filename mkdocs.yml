@@ -53,11 +53,11 @@ nav:
   - CERNBox:
       - cernbox/browse.md
       - cernbox/sync_files.md
-  - Spark Integration:
+  - Spark integration:
       - spark/local.md
       - spark/clusters.md
       - spark/monitoring.md
-  - HTCondor Integration:
+  - HTCondor integration:
       - condor/intro.md
       - condor/configure_session.md
       - condor/create_cluster.md
