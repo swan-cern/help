@@ -1,4 +1,4 @@
-# Resuming work after a pause
+# Resume work after a pause
 
 The previous steps in this documentation summarise how a user can run a distributed analysis interactively. In addition, a semi-interactive use case is also supported, meaning that the user can pause their use of SWAN for a few hours. Such a pause can be done after launching a distributed computation, perhaps even closing the browser after that. When the user comes back (i.e. connects to their SWAN session again with the browser), the SWAN interface reconnects to the Dask monitoring dashboard, so the user can see an updated status of the execution.
 
