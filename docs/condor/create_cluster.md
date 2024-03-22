@@ -30,3 +30,6 @@ jobqueue:
 ```
 
 Note that, after the Dask configuration file has been created / modified, the SWAN session needs to be restarted for Dask to pick the new configuration.
+
+[condor_create_cluster]: ../images/condor_create_cluster.png "Creation of an empty Dask HTCondor cluster"
+[condor_scale_cluster]: ../images/condor_scale_cluster.png "Scaling of a Dask HTCondor cluster"
