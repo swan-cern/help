@@ -5,3 +5,5 @@ Once the Dask HTCondor cluster has been created, one or more clients can connect
 ![][condor_create_client]
 
 The Dask client can be used to directly invoke the Dask API or, alternatively, it can be provided to an analysis framework that can leverage Dask, e.g. ROOT (RDataFrame) or coffea. In the latter case, the user produces one or more notebooks with RDataFrame / coffea analyses where a Dask client is used to generate their computations. Please refer to the [RDataFrame](https://root.cern/doc/master/classROOT_1_1RDataFrame.html#distrdf) and [coffea](https://coffeateam.github.io/coffea/) documentation to know how to provide those frameworks with a Dask client.
+
+[condor_create_client]: ../images/condor_create_client.png "Automatic generation of code to create a Dask client in a notebook"

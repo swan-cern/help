@@ -7,3 +7,5 @@ The input data for the analysis is expected to be read remotely from the Dask wo
 In order to monitor the progress of the distributed execution, the Dask JupyterLab extension provides a dashboard. Multiple tabs with different kinds of information can be opened as part of such a dashboard: task graph that represents the analysis workflow, progress bars for the different task types, task stream that shows an execution trace of the analysis tasks, CPU / memory utilisation in the workers used in the workers, etc. Instructions on how to configure the layout of the Dask dashboard can be found [here](https://github.com/dask/dask-labextension?tab=readme-ov-file#configuring-a-default-layout).
 
 ![][condor_execute_and_monitor]
+
+[condor_execute_and_monitor]: ../images/condor_execute_and_monitor.png "Monitoring of the execution of an analysis with the Dask dashboard"
