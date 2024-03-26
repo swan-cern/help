@@ -53,6 +53,8 @@ nav:
   - CERNBox:
       - cernbox/browse.md
       - cernbox/sync_files.md
+  - Plotting:
+      - plotting/matplotlib.md
   - Spark integration:
       - spark/local.md
       - spark/clusters.md
