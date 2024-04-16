@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[Matplotlib](https://matplotlib.org/stable/) is a Python library used to create static, animated and interactive visualizations, including different types of figures and plots. It is possible to become familiar with these different [types of visualizations](https://matplotlib.org/stable/plot_types/index.html) and learn more with their [tutorials](https://matplotlib.org/stable/tutorials/index.html).
+[Matplotlib](https://matplotlib.org/stable/) is a Python library used to create static, animated and interactive visualizations, including different types of figures and plots. It is possible to become familiar with these different types of visualizations [here](https://matplotlib.org/stable/plot_types/index.html) and learn more with their tutorials [here](https://matplotlib.org/stable/tutorials/index.html).
 
 ## Backends
 
