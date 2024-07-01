@@ -1,10 +1,13 @@
 # AlmaLinux 9 and JupyterLab
 
-SWAN now offers an experimental AlmaLinux9 user image, which users can select when starting their sessions. This is in the context of the migration away from CentOS7, which will reach its [end of life](https://cern.service-now.com/service-portal?id=outage&n=OTG0145248) in June 2024.
+SWAN offers an AlmaLinux9 user image, which is now selected as default when users start their sessions. This is in the context of the migration away from CentOS7, which reached its [end of life](https://cern.service-now.com/service-portal?id=outage&n=OTG0145248) in June 2024.
 
-The new Alma9 image shows by default the latest Jupyter interface, [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/). Such interface integrates notebooks, terminals and a file browser in the same workspace, and its modular design allows for extensions to be deployed to enrich functionality. Users are expected to progressively move to JupyterLab instead of the classic SWAN UI, especially as the former becomes more feature-complete, although both interfaces will be available for some time (at least during 2024).
+The Alma9 image allows users to select a new interface, [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/) as an alternative to the classic one. Such interface integrates notebooks, terminals and a file browser in the same workspace, and its modular design allows for extensions to be deployed to enrich functionality. Users are expected to progressively move to JupyterLab instead of the classic SWAN UI, especially as the former becomes more feature-complete, although both interfaces will be available for some time (at least during 2024).
 
-To start a session with Alma9 and JupyterLab, please select the LCG 105 release (or newer) in the web form, and choose "AlmaLinux 9" as Platform.
+To start a session with Alma9, please select the LCG 105 release (or newer) in the web form, and ensure "AlmaLinux 9" is selected as the Platform. Furthermore,
+if you also wish to use the new JupyterLab interface, please tick the field at the top of the form that says "Try the new JupyterLab interface (experimental)".
+
+This image integrates with all of the SWAN existing features, including access to GPUs, Spark clusters and HTCondor.
 
 ## New features
 
@@ -13,9 +16,4 @@ To start a session with Alma9 and JupyterLab, please select the LCG 105 release 
 
 ## Current limitations
 
-- The Spark clusters are not accessible from the SWAN Alma9 image at the moment. During 2024, the SWAN and the Hadoop services at CERN will coordinate to migrate to Alma9, so that SWAN Alma9 clients can submit Spark jobs to the migrated Hadoop/Spark clusters.
-- The CERNBox sharing functionality available in the classic SWAN UI with CentOS7 is not yet available in Alma9 with JupyterLab. The SWAN team is working on providing a JupyterLab extension that allows to share notebooks / folders from SWAN via CERNBox.
-
-## Using the classic UI
-
-JupyterLab is launched by default when selecting Alma9 as platform, but the classic UI is also available in an Alma9 session. To select it, go to the menu `Help->Launch the Classic SWAN UI` or, from a notebook, click on the button `Classic UI`.
+- The CERNBox sharing functionality available in the classic SWAN UI is not yet available in JupyterLab. The SWAN team is working on providing a JupyterLab extension that allows to share notebooks / folders from SWAN via CERNBox.
