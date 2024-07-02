@@ -15,11 +15,10 @@ A typical case is the installation of Python packages, which requires to run pip
 
 If this fails because you are trying to install an updated version of a package that already exists in CVMFS, you will need to add the `--upgrade` flag.
 
-Then, it would be necessary to add the local installation path to `PYTHONPATH`, by creating a bash startup script that configures that variable (don't forget to call this startup script in the session configuration menu):
+After the desired Python packages have been installed on CERNBox, they need to be added to the PYTHONPATH when starting a SWAN session. This can be easily 
+achieved by selecting the option "Use Python packages installed on CERNBox" under the "Software stack" section of the SWAN web form.
 
-``` python
-export PYTHONPATH=$CERNBOX_HOME/.local/lib/python3.5/site-packages:$PYTHONPATH
-```
+![][user_python_packages]
 
 As a result of performing the aforementioned steps, the package will be installed on your CERNBox and it will be picked by 
 any notebook you open after that. Since the package is on your CERNBox, it will be also available in any new session 
@@ -36,3 +35,5 @@ Next, still from the SWAN terminal, open the R interpreter and run the next comm
 Finally, from your R notebook, you will be able to use your package after running the following two commands in a cell:
 `.libPaths(c(.libPaths(), "~/Rpackages"))`
 `require(installed_pkg,lib='~/Rpackages',character.only = TRUE)`
+
+[user_python_packages]: ../images/user_python_packages.png "User installed Python packages"
