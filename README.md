@@ -23,6 +23,8 @@
 * CERNBox
     * [Browse files](docs/cernbox/browse.md)
     * [Synchronize data from your computer](docs/cernbox/sync_files.md)
+* Plotting:
+    * [Matplotlib](docs/plotting/matplotlib.md)
 * Spark Integration
     * [Run Spark on CERN Clusters](docs/spark/clusters.md)
     * [Spark Monitoring](docs/spark/monitoring.md)
@@ -30,6 +32,7 @@
 * Advanced setup
     * [Install packages in CERNBox](docs/advanced/install_packages.md)
     * [Install and enable notebook extensions](docs/advanced/enable_extensions.md)
+* [AlmaLinux 9 and JupyterLab](docs/alma9.md)
 * [Known issues](docs/issues.md)
 
 &nbsp;
