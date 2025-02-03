@@ -7,7 +7,6 @@
     * [Software: CVMFS](docs/intro/cvmfs.md)
 * Create and manage a SWAN session
     * [Select a configuration](docs/session/select.md)
-    * [Set a configuration as default](docs/session/set_default.md)
     * [Switch to a new configuration](docs/session/switch.md)
     * [Terminate a session](docs/session/terminate.md)
 * Working with SWAN

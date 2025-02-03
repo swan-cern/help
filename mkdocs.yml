@@ -37,7 +37,6 @@ nav:
     - intro/cvmfs.md
   - Create and manage a SWAN session:
     - session/select.md
-    - session/set_default.md
     - session/switch.md
     - session/terminate.md
   - Working with SWAN:
