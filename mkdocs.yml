@@ -71,5 +71,9 @@ nav:
       - advanced/install_packages.md
       - advanced/enable_extensions.md
   - alma9.md
+  - ATS SWAN prototype:
+      - ats/intro.md
+      - ats/custom_envs.md
+      - ats/url_args.md
   - issues.md
   - logos.md
