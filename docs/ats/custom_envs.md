@@ -19,15 +19,12 @@ A CSE is created by specifying the following parameters in the SWAN form:
 Package requirements for a CSE must be defined using requirement files placed at the root of the Git repository. Two types of requirements file are supported:
 
 1. `requirements.in`: a high-level specification listing only the direct dependencies of the user's code. It follows the [pip requirements file format](https://pip.pypa.io/en/stable/reference/requirements-file-format/#requirements-file-format). Example:
-
 ```txt
 matplotlib
 ipympl
 widgetsnbextension
 ```
-
 2. `requirements.txt`: a fully resolved list of all dependencies and their versions. After creating a CSE from a `requirements.in` file, the user can generate a `requirements.txt` from within the environment using `pip freeze --local > requirements.txt`. Example:
-
 ```txt
 contourpy==1.3.1
 cycler==0.12.1
