@@ -45,7 +45,7 @@ widgetsnbextension==4.0.14
 !!! note
     If both `requirements.in` and `requirements.txt` are present, the latter is used. Using `requirements.txt` usually speeds up environment creation.
 
-## Management of repositories
+## Managing repositories
 
 During session startup, the selected Git repository is used to build the CSE. On first use, SWAN clones the repository into the user's CERNBox directory under:
 
@@ -75,7 +75,7 @@ git config --global credential.helper store
 
 Once configured, Git credentials will be reused automatically in future sessions.
 
-## NXCALS
+## NXCALS integration
 
 The ATS SWAN prototype supports NXCALS users submitting computations to the NXCALS Hadoop cluster from within a CSE. To enable this:
 
