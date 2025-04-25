@@ -60,7 +60,7 @@ SWAN includes the [JupyterLab Git extension](https://github.com/jupyterlab/jupyt
 !!! note
     After a repository is cloned into the user's CERNBox space, it is the user's responsibility to keep it synchronized with upstream changes if desired. Re-selecting the same repository will reuse the existing clone without automatically pulling updates.
 
-## Private / internal repositories
+### Private / internal repositories
 
 In addition to public Git repositories, CSEs can also be created from private or internal ones. To do this, users must first configure Git access credentials within their SWAN session so that the `git clone` command can authenticate successfully. Here we describe two alternatives that can be applied to repositories hosted on `gitlab.cern.ch`:
 
