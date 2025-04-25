@@ -2,7 +2,7 @@
 
 As part of a joint project — called "SWAN on the TN" — between the ATS and IT departments at CERN, a specialized SWAN instance is being developed to meet the specific needs of the ATS sector. A prototype of this ATS SWAN is already available for testing at:
 
-https://swan-acc-qa.cern.ch
+<https://swan-acc-qa.cern.ch>
 
 This documentation outlines its main user-facing features:
 
