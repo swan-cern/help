@@ -65,12 +65,10 @@ SWAN includes the [JupyterLab Git extension](https://github.com/jupyterlab/jupyt
 In addition to public Git repositories, CSEs can also be created from private or internal ones. To do this, users must first configure Git access credentials within their SWAN session so that the `git clone` command can authenticate successfully. Here we describe two alternatives that can be applied to repositories hosted on `gitlab.cern.ch`:
 
 1. Personal access tokens: create a token via GitLab's web interface (instructions [here](https://docs.gitlab.com/user/profile/personal_access_tokens/), then configure Git in the SWAN terminal to use such token:
-
 ```bash
 echo "https://$USER:${TOKEN_VALUE_HERE}$@gitlab.cern.ch" >> $HOME/.git-credentials
 git config --global credential.helper store
 ```
-
 2. SSH keys: configure Git to use SSH for authentication. See [these instructions](https://docs.gitlab.com/user/ssh/) for details.
 
 Once configured, Git credentials will be reused automatically in future sessions.
