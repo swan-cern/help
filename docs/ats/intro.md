@@ -17,6 +17,7 @@ The main user-facing features introduced by ATS SWAN are:
 ## Network access
 
 The ATS SWAN prototype runs on CERN's General Purpose Network (GPN), but it is **exposed to CERN's Technical Network (TN)**. Such exposure is bidirectional, in other words:
+
 1. User sessions can query devices located in the TN.
 2. Users located in the TN can connect to the prototype and create sessions.
 
