@@ -70,6 +70,9 @@ git config --global credential.helper store
 
 Once configured, Git credentials will be reused automatically in future sessions.
 
+!!! note
+    As explained [here](intro.md#network-access), user sessions cannot connect to the Internet. In practice, this means that only Git repositories located inside CERN's network (e.g. on `gitlab.cern.ch`) can be used to create CSEs, and not repositories e.g. on `github.com`.
+
 ## NXCALS integration
 
 The ATS SWAN prototype supports NXCALS users submitting computations to the NXCALS Hadoop cluster from within a CSE. To enable this:
