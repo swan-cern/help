@@ -1,6 +1,6 @@
 # URLs with arguments
 
-In the SWAN ATS prototype, users can generate URLs that reflect a specific configuration of the SWAN form. The form now includes a new **Generate URL** button. When clicked, it copies a URL to the clipboard that encodes all the currently selected options in the form.
+In ATS SWAN, users can generate URLs that reflect a specific configuration of the SWAN form. The form now includes a new **Generate URL** button. When clicked, it copies a URL to the clipboard that encodes all the currently selected options in the form.
 
 ![][generate_url]
 
