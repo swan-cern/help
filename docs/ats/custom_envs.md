@@ -1,11 +1,11 @@
 # Custom software environments
 
-In the ATS SWAN prototype, the software available in a user session can come from one of two sources:
+In ATS SWAN, the software available in a user session can come from one of two sources:
 
 1. [LCG release](https://lcginfo.cern.ch): a software stack maintained by the EP department at CERN, containing hundreds of packages distributed via [CVMFS](https://cernvm.cern.ch/fs/).
 2. [Custom software environment (CSE)](https://docs.python.org/3/library/venv.html): a virtual environment defined by the user, containing a specific set of Python packages.
 
-While (1) is the traditional way of providing software in SWAN, (2) is a new feature implemented in the ATS SWAN prototype. The next subsections describe how to create and use CSEs.
+While (1) is the traditional way of providing software in SWAN, (2) is a new feature implemented in ATS SWAN. The next subsections describe how to create and use CSEs.
 
 ## Creating an environment
 
@@ -75,7 +75,7 @@ Once configured, Git credentials will be reused automatically in future sessions
 
 ## NXCALS integration
 
-The ATS SWAN prototype supports NXCALS users submitting computations to the NXCALS Hadoop cluster from within a CSE. To enable this:
+ATS SWAN supports NXCALS users submitting computations to the NXCALS Hadoop cluster from within a CSE. To enable this:
 
 1. Include the `nxcals` Python package in the requirements file of the CSE.
 2. Select the NXCALS cluster under "External Computing Resources" → "Spark clusters", in the SWAN form.

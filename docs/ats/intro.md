@@ -1,10 +1,10 @@
 # Introduction
 
-As part of a joint project — called "SWAN on the TN" — between the ATS and IT departments at CERN, a specialized SWAN instance is being developed to meet the specific needs of the ATS sector. A prototype of this ATS SWAN is already available for testing at:
+As part of a joint project — called "SWAN on the TN" — between the ATS and IT departments at CERN, a specialized SWAN instance has been deployed to meet the specific needs of the ATS sector. This ATS SWAN instance is available at:
 
 <https://ats.swan.cern.ch>
 
-The access to this prototype is restricted to members of the `TBD` e-group.
+The access to this instance is restricted to members of the `TBD` e-group.
 
 ## Main features
 
@@ -16,9 +16,9 @@ The main user-facing features introduced by ATS SWAN are:
 
 ## Network access
 
-The ATS SWAN prototype runs on CERN's General Purpose Network (GPN), but it is **exposed to CERN's Technical Network (TN)**. Such exposure is bidirectional, in other words:
+ATS SWAN runs on CERN's General Purpose Network (GPN), but it is **exposed to CERN's Technical Network (TN)**. Such exposure is bidirectional, in other words:
 
 1. User sessions can query devices located in the TN.
-2. Users located in the TN can connect to the prototype and create sessions.
+2. Users located in the TN can connect to ATS SWAN and create sessions.
 
 Furthermore, user sessions in ATS SWAN **do not have Internet connectivity**.
