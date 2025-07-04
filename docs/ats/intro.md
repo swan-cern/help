@@ -4,7 +4,7 @@ As part of a joint project — called "SWAN on the TN" — between the ATS and I
 
 <https://ats.swan.cern.ch>
 
-The access to this instance is restricted to members of the `TBD` e-group.
+The access to this instance is restricted to members of the `acc-all` e-group.
 
 ## Main features
 
