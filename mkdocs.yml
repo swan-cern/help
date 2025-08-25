@@ -52,6 +52,11 @@ nav:
   - CERNBox:
       - cernbox/browse.md
       - cernbox/sync_files.md
+  - Rucio integration:
+      - rucio/intro.md
+      - rucio/setup.md
+      - rucio/authentication.md
+      - rucio/usage.md
   - Plotting:
       - plotting/matplotlib.md
   - Spark integration:
