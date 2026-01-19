@@ -72,6 +72,7 @@ nav:
       - condor/inspect_results.md
       - condor/resume_work.md
       - condor/move_to_batch.md
+  - vscode.md
   - Advanced setup:
       - advanced/install_packages.md
       - advanced/enable_extensions.md
