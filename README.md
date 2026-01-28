@@ -28,6 +28,15 @@
     * [Run Spark on CERN Clusters](docs/spark/clusters.md)
     * [Spark Monitoring](docs/spark/monitoring.md)
     * [Run Spark Locally](docs/spark/local.md)
+* HTCondor Integration
+    * [Introduction to HTCondor on SWAN](docs/condor/intro.md)
+    * [Configure Dask sessions](docs/condor/configure_session.md)
+    * [Manage a Dask cluster](docs/condor/create_cluster.md)
+    * [Create the Dask client](docs/condor/create_client.md)
+    * [Execute and monitor an interactive distributed analysis](docs/condor/execute_and_monitor.md)
+    * [Inspect the results of the analysis](docs/condor/inspect_results.md)
+    * [Resume work after a pause](docs/condor/resume_work.md)
+    * [Move from interactive to batch](docs/condor/move_to_batch.md)
 * Advanced setup
     * [Install packages in CERNBox](docs/advanced/install_packages.md)
     * [Install and enable notebook extensions](docs/advanced/enable_extensions.md)
