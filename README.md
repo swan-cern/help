@@ -37,6 +37,7 @@
     * [Inspect the results of the analysis](docs/condor/inspect_results.md)
     * [Resume work after a pause](docs/condor/resume_work.md)
     * [Move from interactive to batch](docs/condor/move_to_batch.md)
+* [VS Code Integration](docs/vscode.md)
 * Advanced setup
     * [Install packages in CERNBox](docs/advanced/install_packages.md)
     * [Install and enable notebook extensions](docs/advanced/enable_extensions.md)
