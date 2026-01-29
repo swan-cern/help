@@ -39,6 +39,7 @@ nav:
     - session/select.md
     - session/switch.md
     - session/terminate.md
+    - session/url_args.md
   - Working with SWAN:
     - swan/create_proj.md
     - swan/create_notebook.md
@@ -80,6 +81,5 @@ nav:
   - ATS SWAN:
       - ats/intro.md
       - ats/custom_envs.md
-      - ats/url_args.md
   - issues.md
   - logos.md

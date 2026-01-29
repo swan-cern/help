@@ -9,6 +9,7 @@
     * [Select a configuration](docs/session/select.md)
     * [Switch to a new configuration](docs/session/switch.md)
     * [Terminate a session](docs/session/terminate.md)
+    * [URLs with arguments](docs/session/url_args.md)
 * Working with SWAN
     * [Create a Project](docs/swan/create_proj.md)
     * [Create a Notebook](docs/swan/create_notebook.md)
@@ -45,7 +46,6 @@
 * ATS SWAN
     * [Introduction](docs/ats/intro.md)
     * [Custom software environments](docs/ats/custom_envs.md)
-    * [URLs with arguments](docs/ats/url_args.md)
 * [Known issues](docs/issues.md)
 
 &nbsp;
