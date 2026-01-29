@@ -42,6 +42,10 @@
     * [Install packages in CERNBox](docs/advanced/install_packages.md)
     * [Install and enable notebook extensions](docs/advanced/enable_extensions.md)
 * [AlmaLinux 9 and JupyterLab](docs/alma9.md)
+* ATS SWAN
+    * [Introduction](docs/ats/intro.md)
+    * [Custom software environments](docs/ats/custom_envs.md)
+    * [URLs with arguments](docs/ats/url_args.md)
 * [Known issues](docs/issues.md)
 
 &nbsp;
