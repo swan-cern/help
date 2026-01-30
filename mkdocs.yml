@@ -40,6 +40,7 @@ nav:
     - session/switch.md
     - session/terminate.md
     - session/url_args.md
+    - session/custom_envs.md
   - Working with SWAN:
     - swan/create_proj.md
     - swan/create_notebook.md
@@ -78,8 +79,6 @@ nav:
       - advanced/install_packages.md
       - advanced/enable_extensions.md
   - alma9.md
-  - ATS SWAN:
-      - ats/intro.md
-      - ats/custom_envs.md
+  - ats.md
   - issues.md
   - logos.md

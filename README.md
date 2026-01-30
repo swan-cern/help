@@ -10,6 +10,7 @@
     * [Switch to a new configuration](docs/session/switch.md)
     * [Terminate a session](docs/session/terminate.md)
     * [URLs with arguments](docs/session/url_args.md)
+    * [Custom software environments](docs/session/custom_envs.md)
 * Working with SWAN
     * [Create a Project](docs/swan/create_proj.md)
     * [Create a Notebook](docs/swan/create_notebook.md)
@@ -43,9 +44,7 @@
     * [Install packages in CERNBox](docs/advanced/install_packages.md)
     * [Install and enable notebook extensions](docs/advanced/enable_extensions.md)
 * [AlmaLinux 9 and JupyterLab](docs/alma9.md)
-* ATS SWAN
-    * [Introduction](docs/ats/intro.md)
-    * [Custom software environments](docs/ats/custom_envs.md)
+* [ATS SWAN](docs/ats.md)
 * [Known issues](docs/issues.md)
 
 &nbsp;

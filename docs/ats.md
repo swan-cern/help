@@ -23,22 +23,9 @@ ATS SWAN runs on CERN's General Purpose Network (GPN), but it is **exposed to CE
 
 Furthermore, user sessions in ATS SWAN **do not have Internet connectivity**.
 
-
 # Acc-Py environments
 
-In ATS SWAN, the software available in a user session can come from one of two sources:
-
-1. [LCG release](https://lcginfo.cern.ch): a software stack maintained by the EP department at CERN, containing hundreds of packages distributed via [CVMFS](https://cernvm.cern.ch/fs/).
-2. [Custom software environment (CSE)](https://docs.python.org/3/library/venv.html): a virtual environment defined by the user, containing a specific set of Python packages.
-
-While (1) is the traditional way of providing software in SWAN, (2) is a new feature implemented in ATS SWAN. The next subsections describe how to create and use CSEs.
-
-## Creating an environment
-
-A CSE is created by specifying the following parameters in the SWAN form:
-
-1. A **Git repository URL**, which must contain the package requirements for the environment. This repository may also contain notebooks or other files intended for use within the environment. Note that multiple users can base their CSEs on the same Git repository and potentially contribute new content.
-2. An **Acc-Py release**,  which serves as the base environment. The user-specified packages are installed on top of this base layer.
+In ATS SWAN, the custom software environments are available in a user session can come from three different Acc-Py builder versions (`2020.11`, `2021.12`, `2023.06`). The user-specified packages are installed on top of this base layer.
 
 ## NXCALS integration
 
