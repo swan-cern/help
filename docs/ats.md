@@ -1,4 +1,4 @@
-# Introduction
+# ATS SWAN
 
 As part of a joint project — called "SWAN on the TN" — between the ATS and IT departments at CERN, a specialized SWAN instance has been deployed to meet the specific needs of the ATS sector. This ATS SWAN instance is available at:
 
