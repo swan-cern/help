@@ -1,1 +1,1 @@
-mkdocs-swan
+mkdocs-swan>=0.5.0

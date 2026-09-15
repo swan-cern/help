@@ -11,6 +11,23 @@ repo_url: 'https://github.com/swan-cern/help'
 # Theme configuration
 theme:
   name: 'swan'
+  palette:
+    # Light mode (default, follows OS preference)
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.footer
     - content.action.edit
